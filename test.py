@@ -35,4 +35,3 @@ if __name__ == "__main__":
             response = requests.get(url)
             with open(f"./{idx}_{key}.gif", "wb") as f:
                 f.write(response.content)
-
